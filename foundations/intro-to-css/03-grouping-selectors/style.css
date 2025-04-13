@@ -1,0 +1,7 @@
+.me {background-color: rgb(8, 8, 8);
+     color: rgb(228, 232, 235);}
+
+.no {background-color: rgb(236, 236, 23);}
+
+.no, .me {font-size: 28px;
+          font-family: 'helvetica', 'Times New Roman', 'sans-serif';}
