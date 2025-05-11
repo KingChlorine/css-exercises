@@ -16,6 +16,12 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #ddd;
 }
 
 input {
@@ -23,4 +29,65 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  list-style: none;
+
+
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.left-links {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+ 
+}
+
+.right-links {
+  display: flex ;
+  text-decoration: none;
+  list-style: none;
+}
+
+a {text-decoration: none;
+padding: 10px;
+padding-right: 40px;
+color: rgb(50, 50, 50);}
+
+a:hover {
+color:rgb(82, 82, 82);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 240px;
+
+
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  
 }
